@@ -70,6 +70,10 @@ do
 			   array[count] = array[count+1];
 			   array[count+1] = temp;
 			   swap = true; // indicates that a swap occurred
+			   
+               cout << "The next step in sorting the array is " << endl;
+               displayArray(array, elems);
+               cout << endl;
 			}
 		}
             bottom--;     // bottom is decremented by 1 since each pass through
